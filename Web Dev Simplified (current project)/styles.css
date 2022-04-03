@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@font-face {
+    font-family: "Booter Zero Zero";
+    src: url("/Booter - Zero Zero.woff") format("woff");
+    src: url("/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.mainNav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.mainNav li{
+    padding: 0 5%;
+}
+.mainHeader {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(https://github.com/WebDevSimplified/Introduction-to-Web-Development/blob/master/Introduction%20to%20CSS/Lesson%201/Images/Header%20Background.jpg?raw=true);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.bandName {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.bandNameLarge {
+    font-size: 8em;
+}
+
+.contentSection {
+    margin: 1em;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.sectionHeader {
+    font-family: Metal Mania;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.aboutBandImg {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.mainFooter {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+.mainFooterContainer {
+    display: flex;
+    align-items: center;
+}
+.mainFooterContainer ul {
+    flex-grow: 1;
+    text-align: end;
+} 
+.footerNav li {
+    padding: 0 .5em;
+}
+.footerNav img {
+    width: 30px;
+    height: 30px;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+.btnHeader {
+    margin: 0.5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2d9cdb;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0%;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btnHeader:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.btnPlay {
+    display: block;
+    margin: 0 auto;
+    color: #2d9cdb;
+    border-radius: 50%;
+    font-size: 4em;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.tourRow {
+    border-bottom: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+}
+.tourRow:last-child{
+    border-bottom: none;
+}
+.tourItem {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+.tourDate {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+.tourCity {
+    width: 24%;
+}
+.tourArena {
+    width: 42%;
+}
+.tourBtn {
+    max-width: 19%;
+    
+}
+.btnPrimary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+.btnPrimary:hover {
+    background-color: #2d9cdb;
+}
+.shopItem {
+    margin: 30px;
+}
+.shopItemTitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.shopItemImg {
+    height: 250px;
+}
+.shopItemDetails {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shopItemPrice {
+    flex-grow: 1;
+    color: #333;
+}
+.shopItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cartHeader {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+.cartColumn {
+    display: flex;
+    align-items:center ;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cartRow {
+    display: flex;
+}
+.cartItem {
+    width: 45%;
+}
+.cartPrice {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+.cartQuantity {
+    width: 35%;
+}
+.cartItemTitle {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+.cartItemImg {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btnDanger {
+    color: white;
+    background-color: #eb5757;
+    border: none;
+    border-radius: .3em;
+}
+.btnDanger:hover{
+    background-color: #cc4c4c;
+}
+.cartQuantityInput {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cartRow:last-child {
+    border-bottom: 1px solid black;
+}
+.cartRow:last-child .cartColumn {
+    border: none;
+}
+.cartTotal {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cartTotalTitle {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+.cartTotalPrice {
+    color: #333;
+    font-size: 1.1em;
+
+}
+.btnPurchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.5em;
+}
